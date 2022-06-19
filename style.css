@@ -1,0 +1,111 @@
+
+p{
+    /* /* color:rgb(159, 38, 207);
+    stroke: blue; */
+font-family: 'Quattrocento Sans', sans-serif;;    
+border: none;
+    background:  #AADCFD;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+}
+i{
+    color:rgb(245, 250, 250)
+}
+.change_text{
+    font-family: 'Quattrocento Sans', sans-serif;    
+    color:#202F60;
+    font-size: 50px;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'Quattrocento Sans', sans-serif; 
+    font-size: larger; 
+    padding: 6px 15px;
+    border-radius:20px;
+    text-decoration: none;
+}
+a:hover{
+   color:rgb(18, 13, 66);
+   font-family: 'Quattrocento Sans', sans-serif;  
+  background:whitesmoke;
+  color : black;
+}
+
+a:link{
+text-decoration : none;
+}
+
+a:hover{
+text-decoration : none;
+}
+
+h1{
+   font-family: 'Quattrocento Sans', sans-serif;
+    color: #0CD183;
+    text-decoration-style: dotted;
+    font-size:xx-large;
+}
+h2{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color:yellow;
+    text-decoration-style: dotted;
+}
+h3{
+    font-size: x-large;
+    color:white
+}
+  h1{
+      animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  body{
+      background-color:rgb(255, 255, 255);
+  }
+  form{
+    font-family: 'Quattrocento Sans', sans-serif;
+        background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .gfg:hover{
+      opacity: 1;
+    }
+    image{
+        width:300;
+        height:200;
+        align: center
+    }
+    header{
+        background: #2A84EE
+        }
+        .main{
+            background-color: orange;
+            font-family: 'Quattrocento Sans', sans-serif;
+                }
+        input[type=button]{
+            font-family: 'Quattrocento Sans', sans-serif;
+
+            width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+        }
